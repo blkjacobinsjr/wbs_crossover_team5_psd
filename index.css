@@ -1,0 +1,19 @@
+/* Google Font - Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* General styles that apply to the whole page */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Jennifer 1 (Header styles start here) */
+header {
+  /* TODO: Jennifer, your header styles go here */
+}
+
+/* Jerry (Footer styles start here) */
+footer {
+  /* TODO:  */
+}
