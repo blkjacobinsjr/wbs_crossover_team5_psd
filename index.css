@@ -15,7 +15,7 @@ p {
 
 /* Jennifer 1 (Header styles start here) */
 .main {
-  background-image: url("./jen_images/ADULT-lander-hp-fw23-campaign.jpeg");
+  background-image: url("./assets/ADULT-lander-hp-fw23-campaign.jpeg");
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,7 +61,8 @@ p {
 
 .o-card-text-lt.text-bg-red { 
   background-color: transparent;
-=======
+}
+
 /* The navbar */
 .topnav {
   height: 72px;
@@ -165,6 +166,7 @@ p {
   padding: 24px 24px;
   border: none;
   cursor: pointer;
+}
 
 #color-section {
   background-color: #f7f7f7;
