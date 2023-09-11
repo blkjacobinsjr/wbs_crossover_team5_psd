@@ -17,3 +17,79 @@ header {
 footer {
   /* TODO:  */
 }
+/* Nita   ---------*/
+.container1{
+  background-color:#fff;
+  min-height: 120px;
+}
+.container2{
+  background-color:#fff;
+  min-height: 120px;
+}
+.heading2{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;  
+}
+.heading1{
+  
+  font-weight: bold;
+  display: flex;
+  justify-content: center;  
+}
+h2{
+  color:black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 4.6rem;
+  text-transform: uppercase;
+}
+.head{
+  color:black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 4.6rem;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.image-container{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  
+}
+
+.image-box img{
+  max-width: 99%;
+  min-height:auto;
+  margin-left: 20px;
+  
+}
+.photo-container {
+  max-width: 99%;
+  min-height:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+    
+}
+.container3{
+  max-width:300px;
+  max-height:200px;
+  border:2px solid #1d1919;
+  padding:20px;
+  align-items: center;
+  display: flex;
+  margin-left:45%;
+  margin-top:60px ;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.p{
+  font-size: 18px;
+    color: #333;
+  text-align: center;
+  
+}
