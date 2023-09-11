@@ -1,16 +1,26 @@
 /* Google Font - Lato */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 /* General styles that apply to the whole page */
-body, h1, h2, h3, p {
+body,
+h1,
+h2,
+h3,
+p {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 /* Jennifer 1 (Header styles start here) */
-header {
-  /* TODO: Jennifer, your header styles go here */
+.main {
+  background-image: url("./jen_images/ADULT-lander-hp-fw23-campaign.jpeg");
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
 }
 
 .o-card-text-lt { 
@@ -51,6 +61,113 @@ header {
 
 .o-card-text-lt.text-bg-red { 
   background-color: transparent;
+=======
+/* The navbar */
+.topnav {
+  height: 72px;
+  overflow: hidden;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Benetton logo */
+.logo {
+  width: 139px;
+  margin: 50px;
+}
+
+.topnav:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu_items {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  list-style-type: none;
+  margin: 20px;
+}
+
+.fa-solid {
+  height: 16px;
+  margin: 50px;
+}
+
+.text_over_image {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text_s {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  list-style-type: none;
+  margin: 20px;
+  
+}
+
+#text_infinity {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  list-style-type: none;
+  margin: 20px;
+}
+
+#text_fw23 {
+  font-family: Baskerville;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  list-style-type: none;
+  margin: 20px;
+}
+
+#button {
+  font-style: normal;
+  font-family: Lato;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 24px 24px;
+  border: none;
+  cursor: pointer;
+
+#color-section {
+  background-color: #f7f7f7;
 }
 
 .o-card-text-lt.text-bg-red { 
@@ -204,6 +321,11 @@ section div img {
 } 
 
 
+=======
+.wheel {
+  background-size: 90%
+}
+  
 /* Jerry (Footer styles start here) */
 footer {
     display: flex;
