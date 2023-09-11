@@ -127,7 +127,195 @@ p {
   border: none;
   cursor: pointer;
 
+=======
+#color-section {
+  background-color: #f7f7f7;
+}
+/* Jerry (Footer styles start here) */
+.shop-by-color-inner-circle {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .shop-by-color-inner-circle .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all .5s cubic-bezier(.25,1,.5,1); 
+  }
+  
+  .shop-by-color-inner-circle .layer--intro {
+    cursor: pointer; 
+  }
+  
+  .shop-by-color-inner-circle .layer--intro .content-info {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 30px;
+  }
+
+.wheel-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the div take up the full viewport height */
+}
+
+.intro-cta { 
+  display: block; 
+  font-family: gill-sans-nova,Arial,Helvetica,sans-serif; 
+  font-weight: 700; 
+  font-size: 0.81rem; /* Reduced font size by 10% */
+  line-height: 1.6rem; 
+  letter-spacing: .05rem; 
+  text-align: center; 
+  text-transform: uppercase; 
+  color: #000; 
+  padding-top: 50px;
+}     
+
+.shop-by-color-inner-circle .layer--intro .content-info .intro-description  { 
+    display: block; 
+    font-family: gill-sans-nova,Arial,Helvetica,sans-serif; 
+    font-weight: 500; 
+    font-size: 0.9rem; /* Reduced font size by 10% */
+    line-height: 2.4rem; 
+    letter-spacing: .05rem; 
+    text-align: center; 
+    color: #767676; 
+    padding-top: 15px;
+} 
+
+
+.shop-by-color-inner-circle .layer--intro .content-info .intro-title .title-highlight  { 
+  display: block; 
+  font-family: gill-sans-nova,Arial,Helvetica,sans-serif; 
+  line-height: 1.2; 
+  font-weight: 700; 
+  text-align: center; 
+  text-transform: uppercase; 
+  color: #000; 
+  font-size: clamp(1.588rem,4.41vw,3.78rem); 
+} 
+
+.shop-by-color-inner-circle .layer--intro .content-info .intro-title .title-normal  { 
+  display: block; 
+  font-family: butler,Georgia,serif; 
+  font-weight: 500; 
+  line-height: 1.2; 
+  text-align: center; 
+  text-transform: uppercase; 
+  color: #000; 
+  font-size: clamp(1.588rem,4.41vw,3.78rem); 
+} 
+
+.wheel {
+  background-size: 90%
+}
+  
 /* Jerry (Footer styles start here) */
 footer {
-  /* TODO:  */
+    display: flex;
+    flex-direction: column;
+    padding: 1.5cm; /* Increased padding to create a larger gap */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1cm; /* Added gap to make the gaps between all the columns the same */
+  }
+  
+  .footer-col h3 {
+    font-weight: bold;
+    font-size: 90%; 
+  }
+  
+  .footer-col ul li {
+    margin-top: 1cm; /* Adds the 1cm gap */
+    font-size: 90%; 
+  }
+  
+  .newsletter strong {
+    font-weight: bold;
+    font-size: 90%;
+  }
+  
+  .newsletter input {
+    border: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    font-size: 90%; 
+  }
+  
+  .arrow-button {
+    background: black;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    margin-top: 1cm; /* Added margin to create a larger gap */
+  }
+  
+  .country-lang {
+    text-align: left;
+    font-size: 90%; 
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 90%; 
+  }
+  
+  .version {
+    text-align: right;
+    font-size: 90%; 
+  }
+  
+  .social-icons {
+    /* TODO: Add social media icons here */
+  }
+  /* Jerry (Footer styles end here) */
+  
+  .gradient-line { 
+    height: 10px; 
+    width: 100%; 
+    background: linear-gradient(90deg,#009845 9.37%,#0a78db 26.04%,#7927c8 42.71%,#e62000 58.33%,#ff7b02 75%,#fdcb05 91.15%);
+} 
+
+.footer-col ul {
+  padding-left: 0;
+  margin-top: 0;
+  list-style-type: none;
+  line-height: 0.5cm;
+}
+
+.footer-col {
+  text-align: left;
+}
+
+.icon-link i {
+  color: black;
+  font-size: 1.5em; /* This makes the icons twice their original size */
+}
+
+.icon-link {
+  margin-right: 0.5cm; /* This adds a half cm gap between the icons */
 }
